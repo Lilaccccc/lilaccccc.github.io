@@ -10,9 +10,19 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+    font-family: 'lxgw';
+    font-style: normal;
+    font-weight: 400;
+    src: url('/fonts/LXGWWenKaiGBScreen.ttf') format('truetype'),
+    url('/fonts/LXGWWenKaiGBScreen.ttf') format('truetype');
+    font-display: swap; /* 优化字体加载体验 */
+}
+
 /* 确保平滑滚动 */
 html {
     scroll-behavior: smooth;
+    font-family: "lxgw", sans-serif;
 }
 
 /* 页面顶部渐变高光效果 */

@@ -29,15 +29,40 @@ const items = [
 		siteurl: "https://docs.mizuki.mysqil.com",
 		tags: ["Docs"],
 	},
+    {
+        title: "紗夕里",
+        imgurl: "https://blog.ovofish.com/img/avatar.webp",
+        desc: "在你心里-直到永远",
+        siteurl: "https://blog.ovofish.com/",
+        tags: ["Email：sayuri@edu.email.cn", "Tencent QQ：1709964150"],
+    },{
+        title: "kongjian",
+        imgurl: "https://thirdqq.qlogo.cn/ek_qqapp/AQA8iaMnvNLibEjogZljWuicFlIJTYZnJSCsG8ZUCblZ1rYpXibh6s3R8zw2oqRMed5T6YPo8Uh8/100",
+        desc: "这里是兴趣使然的无名小站（ACBD站）_bilbil",
+        siteurl: "https://bilbil.cn/",
+        tags: [""]
+    },{
+        title: "irislc",
+        imgurl: "https://blog.irislc.net/upload/siteImg/siteLogo.webp?v=1739988555693",
+        desc: "硬件大佬",
+        siteurl: "https://blog.irislc.net/",
+        tags: ["硬件"]
+    },{
+        title: "城子的小屋",
+        imgurl: "https://xcz.me/img/avatar.jpg",
+        desc: "小城子的博客",
+        siteurl: "https://xcz.me",
+        tags: ["超可爱"]
+    },
 ];
 
 function shuffleArray(array) {
-	const newArray = [...array];
-	for (let i = newArray.length - 1; i > 0; i--) {
-		const j = Math.floor(Math.random() * (i + 1));
-		[newArray[i], newArray[j]] = [newArray[j], newArray[i]];
-	}
-	return newArray;
+	// const newArray = [...array];
+	// for (let i = newArray.length - 1; i > 0; i--) {
+	// 	// const j = Math.floor(Math.random() * (i + 1));
+	// 	[newArray[i], newArray[j]] = [newArray[j], newArray[i]];
+	// }
+	return array;
 }
 
 const shuffledItems = shuffleArray(items);
