@@ -14,8 +14,8 @@
     font-family: 'lxgw';
     font-style: normal;
     font-weight: 400;
-    src: url('/fonts/LXGWWenKaiGBScreen.ttf') format('truetype'),
-    url('/fonts/LXGWWenKaiGBScreen.ttf') format('truetype');
+    src: url('../fonts/LXGWWenKaiGBScreen.ttf') format('truetype'),
+    url('../fonts/LXGWWenKaiGBScreen.ttf') format('truetype');
     font-display: swap; /* 优化字体加载体验 */
 }
 
