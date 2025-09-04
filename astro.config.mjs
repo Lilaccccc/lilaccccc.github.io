@@ -29,7 +29,7 @@ import { remarkReadingTime } from "./src/plugins/remark-reading-time.mjs";
 export default defineConfig({
 	site: "https://lilaccccc.github.io/",
 
-	base: "/super-octo-parakeet",
+	base: "/",
 	trailingSlash: "always",
 	integrations: [
 		tailwind({
