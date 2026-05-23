@@ -2,9 +2,48 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>猪头少尉的博客</title>
 </head>
-<body>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
 
+    body {
+        overflow: hidden;
+    }
+
+    .responsive-iframe {
+        position: relative;
+        width: 100%;
+        height: 100vh;
+        overflow: hidden;
+    }
+
+    .responsive-iframe iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        border: none;
+        overflow: hidden;
+    }
+
+    .responsive-iframe iframe::-webkit-scrollbar {
+        display: none;
+    }
+</style>
+<body>
+<div class="responsive-iframe">
+  <iframe
+      src="https://blog.rymn2jint.nyat.app:54012/"
+      scrolling="no"
+      style="overflow: hidden;">
+  </iframe>
+</div>
 </body>
 </html>
